@@ -1,0 +1,16 @@
+public class student {
+    public static void main(String[] args) {
+
+        String name = "Karthikeyan";
+        int mark1 = 80;
+        int mark2 = 75;
+        int mark3 = 90;
+
+        int total = mark1 + mark2 + mark3;
+        double average = total / 3.0;
+
+        System.out.println("Student Name : " + name);
+        System.out.println("Total Marks  : " + total);
+        System.out.println("Average      : " + average);
+    }
+}
